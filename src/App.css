@@ -1,0 +1,49 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255,.99);
+  --buttonBg: linear-gradient(-90deg, #f2f 0%, #f95f35 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+--shedule: #E1AE4A;
+}
+.App{
+  overflow: hidden;
+  color: var(--black);
+  background:#f4f4f4;
+  padding: 1rem 1rem;
+}
+.blur{
+  position: absolute;
+  border-bottom: 15px solid #dad4d4;
+  outline: none;
+  margin: 0%;
+}
+.first{
+  top: -25%;
+  right: 0rem;
+  width: 900px;
+  height: 500px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 60%;
+  background: linear-gradient(90deg, #f2f 50%, #f95f35 100%);
+}
+.second{
+  top: -5%;
+  left:0rem ;
+  width: 700px;
+  height: 400px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 30%;
+    background: linear-gradient(-90deg, #f2f 0%, #f95f35 100%);
+
+}
+Link{
+  text-decoration: none;
+}

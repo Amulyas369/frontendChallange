@@ -1,0 +1,14 @@
+.post{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100vh;
+    padding:0%;
+    margin: 0%;
+    padding-left: 1rem;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(223, 222, 222);
+}
